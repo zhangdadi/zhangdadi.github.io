@@ -1,19 +1,13 @@
-
 ---
-layout:     post
-title:      " 人才"
-subtitle:   ""
-date:       2015-05-21
-author:     "zhangdadi"
-header-img:"img/post-bg-universe.jpg"
-
-catalog: true
-tags:
-    - 管理
+layout: post
+title: "人才"
+description: ""
+category: 管理分享
+tags: [管理]
 ---
-
-
-
+{% include JB/setup %}
+# 人才   
+---
 
 ##高效的技术团队成员
 高效的技术团队中需要什么人：他勤奋，不是每天在那里加班耗时间，而是有主动做事情的动机和行动；他热爱自己的产品，珍惜自己和团队成员的成果，以积极主动的姿态对产品持续地优化和改进；他有钻研技术和解决问题的精神，针对技术坚持不懈地努力，寻求解决问题的最优方案并执行。

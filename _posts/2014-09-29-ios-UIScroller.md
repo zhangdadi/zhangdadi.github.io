@@ -1,19 +1,13 @@
-
-
 ---
-layout:     post
-title:      "UIScrollView属性总结"
-subtitle:   ""
-date:       2014-09-26
-author:     "zhangdadi"
-header-img:"img/post-bg-universe.jpg"
-
-catalog: true
-tags:
-    - iOS
-    - UIScrollView
+layout: post
+title: "UIScrollView属性总结"
+description: ""
+category: 技术分享
+tags: [iOS,UIScrollView]
 ---
-
+{% include JB/setup %}
+# UIScrollView属性总结
+---
 
 属性类型 | 属性名称 | 属性作用
 :------------ | :------------- | :------------

@@ -1,92 +1,74 @@
 # Site settings
-title: zhangdadi Blog
-SEOTitle: 张达棣的博客 | zhangdadi Blog
-header-img: img/home-bg.jpg
-email: z_dadi@163.com
-description: "关于前端与设计、黑客与画家 | 张达棣，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @张达棣 的个人博客，与你一起发现更大的世界。"
-keyword: "张达棣, zhangdadi, @zhangdadi, 张达棣的博客, zhangdadi Blog, 博客, 个人网站, 互联网, iOS, .net, android, java"
-url: "http://zhangdadi.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+title: zhangdadi
+header-img: "img/autumn2.jpg"
+tagline: "吉光片羽"  
+description: "在遙遠的地方 一切虔誠終必相遇"  
+baseurl: ""
+url: "https://zhangdadi.github.io/"  
+#url: "http://localhost:4000"
 
+# About/contact
+owner: 
+  name: "zhangdadi"
+  email: z_dadi@163.com
+  bio: "明朝即長路 惜取此時心"
 
+# Data
+gavatar: http://dreamofbook.qiniudn.com/Az..png
+favicon: img/favicon.ico
 
-# SNS settings
-RSS: false
-weibo_username:     zhangdadi
-zhihu_username:     zhangdadi
-github_username:    zhangdadi
-#twitter_username:  zhangdadi
-facebook_username:  zhangdadi
-# linkedin_username:  firstname-lastname-idxxxx
+#douban_username: zhangdadi
+#twitter_username: zhangdadi  
+github_username: zhangdadi  
+#facebook_username: zhangdadi  
+#weibo_username: zhangdadi  
+#zhihu_username: zhangdadi  
 
-
-
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM
+highlighter: rouge
+
+gems: 
+- jekyll-gallery-generator
+- jekyll-paginate
+permalink: none
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+
+# Title
 
 
-
-# Disqus settings
-#disqus_username: _your_disqus_short_name_
-
-# Duoshuo settings
-duoshuo_username: zhangdadiblog
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-
-
-# Analytics settings
-# Baidu Analytics
-#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
-# Google Analytics
-#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-#ga_domain: zhangdadi.me
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "zhangdadi"
+      header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
 
+# Comments 
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : zhangdadi
+  disqus :
+      short_name : zhangdadi
 
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，我想去看看。"
-sidebar-avatar:       # use absolute URL, seeing it's used in both `/` and `/about/`
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-66863061-2
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
 
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Friends
-friends: [
-    {
-        title: "百度Hi iOS团队技术周报",
-        href: "http://baiduhidevios.github.io"
-    },{
-        title: "唐巧",
-        href: "http://blog.devtang.com"
-    }
-]
+# Links to include in footer navigation
