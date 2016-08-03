@@ -1,8 +1,8 @@
 # Site settings
-title: Hux Blog
+title: zhangdadi Blog
 SEOTitle: 张达棣的博客 | zhangdadi Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: z_dadi@163.com
 description: "关于前端与设计、黑客与画家 | 张达棣，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @张达棣 的个人博客，与你一起发现更大的世界。"
 keyword: "张达棣, zhangdadi, @zhangdadi, 张达棣的博客, zhangdadi Blog, 博客, 个人网站, 互联网, iOS, .net, android, java"
 url: "http://zhangdadi.github.io"              # your host, for absolute URL
