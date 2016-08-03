@@ -1,13 +1,19 @@
+
+
 ---
-layout: post
-title: "delegate的多点回调？"
-description: ""
-category: 技术分享
-tags: [iOS]
+layout:     post
+title:      "delegate的多点回调？"
+subtitle:   ""
+date:       2014-10-21
+author:     "zhangdadi"
+header-img:"img/post-bg-universe.jpg"
+
+catalog: true
+tags:
+    - iOS
 ---
-{% include JB/setup %}
-# delegate不保留计数的多点回调？   
----
+
+
 
 delegate的多点回调相对notification更加便捷，更多方便，让项目更好维护；并且是不保留计数了，当回调的对象已经不存在时会自动移出调用队列。
 demo传送门：[点击我](https://github.com/zhangdadi/HDMultiPointCallNode)
