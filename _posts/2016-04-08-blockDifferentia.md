@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Block在ARC和MRC下的不同点 
-categories: [技术分享 ]
+categories: [blog ]
 tags: [iOS ]
 description: 
 ---

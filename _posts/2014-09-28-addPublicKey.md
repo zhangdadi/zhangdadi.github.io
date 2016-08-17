@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ssh添加公钥
-categories: [技术分享 ]
+categories: [blog ]
 tags: [git ]
 description: 
 ---

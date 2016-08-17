@@ -1,7 +1,7 @@
 ---
 layout: post
 title: delegate不保留计数的多点回调？
-categories: [技术分享 ]
+categories: [blog ]
 tags: [iOS ]
 description: 
 ---

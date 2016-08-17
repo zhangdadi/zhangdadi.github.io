@@ -1,7 +1,7 @@
 ---
 layout: post
 title: NSString为什么要用copy修饰呢
-categories: [技术分享 ]
+categories: [blog ]
 tags: [iOS ]
 description: 
 ---

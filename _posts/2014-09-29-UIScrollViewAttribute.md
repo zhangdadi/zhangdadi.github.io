@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UIScrollView属性总结
-categories: [技术分享 ]
+categories: [blog ]
 tags: [UIScrollView, iOS ]
 description: 
 ---

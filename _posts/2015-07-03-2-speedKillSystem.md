@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 秒杀系统
-categories: [架构分享 ]
+categories: [blog ]
 tags: [架构 ]
 description: 
 ---

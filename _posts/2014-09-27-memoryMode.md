@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ios内存分配方式
-categories: [技术分享 ]
+categories: [blog ]
 tags: [iOS ]
 description: 
 ---

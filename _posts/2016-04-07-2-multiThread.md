@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iOS多线程之序章
-categories: [技术分享 ]
+categories: [blog ]
 tags: [iOS, 多线程 ]
 description: 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: delegate,block,notification三者区别？
-categories: [技术分享 ]
+categories: [blog ]
 tags: [iOS ]
 description: 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: cocos2dx-mac下 cocos2dx 移植到android平台
-categories: [技术分享 ]
+categories: [blog ]
 tags: [2dx, iOS ]
 description: 
 ---
