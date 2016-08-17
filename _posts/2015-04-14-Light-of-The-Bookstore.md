@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 书店的灯光
+title: cocos2dx-新建工程时避免文件和文件夹的拷贝
 categories: [blog ]
-tags: [book, life, travel]
-description: 每一个书店 都有自己的面容与灵魂。
+tags: [2dx, iOS ]
+description: 
 ---
 
 
