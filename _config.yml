@@ -27,7 +27,7 @@ github_username: zhangdadi
 # Build settings  
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
-markdown: kramdown
+markdown: md
 kramdown:
   input: GFM
 highlighter: rouge
